@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="global.css" />
+  </head>
+
+  <body>
+    <h1>Cancellation Policy</h1>
+    <p class="subtitle">Simulator</p>
+    <div id="container">
+      <div id="segment-container">
+
+      </div>
+      <div id="cancellation-marker">
+        <div id="cancellation-date">valores</div>
+      </div>
+      <div class="slidecontainer">
+        <input
+          type="range"
+          min="1"
+          max="1050"
+          value="1"
+          class="slider"
+          id="cancellationDatePicker"
+        />
+      </div>
+    </div>
+    <div id="serviceDate">
+      <label>Cancellation Date</label>
+      <input id="serviceDateInput" type="datetime-local" />
+    </div>
+    <script src="./scripts/policy_calculator.js"></script>
+  </body>
+</html>
